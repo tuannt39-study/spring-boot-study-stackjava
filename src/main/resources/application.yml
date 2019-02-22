@@ -5,3 +5,16 @@
 #spring:
 #  main:
 #    banner-mode: "off"
+message: Hello2
+menus:
+  - title: Home2
+    name: Home2
+    path: /home2
+  - title: Login2
+    name: Login2
+    path: /login2
+
+
+website: vn.teo2
+facebook: facebook.com/teo2
+name: teo2
