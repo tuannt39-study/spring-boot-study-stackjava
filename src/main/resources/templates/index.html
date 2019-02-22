@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
 </head>
-<body>
-    <h1>Hello Spring Boot</h1>
-</body>
+    <body>
+
+        <h1>Spring Boot Properites file</h1>
+        <table>
+            Menu:
+            <ul th:if="${menus != null && !menus.empty}">
+                <li th:each="menu: ${menus}" th:text="${menu}"></li>
+            </ul>
+            <tr>
+                <td>Name:</td>
+                <td><p th:text="${name}">Default Name</p></td>
+            </tr>
+            <tr>
+                <td>Website:</td>
+                <td><p th:text="${website}">Default Website</p></td>
+            </tr>
+            <tr>
+                <td>Facebook:</td>
+                <td><p th:text="${facebook}">Default Facebook</p></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><p th:text="${message}">Default Message</p></td>
+            </tr>
+        </table>
+
+    </body>
 </html>
