@@ -1,0 +1,7 @@
+#spring:
+#  main:
+#    banner-mode: "console"
+#
+#spring:
+#  main:
+#    banner-mode: "off"
