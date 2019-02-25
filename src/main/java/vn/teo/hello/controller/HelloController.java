@@ -16,6 +16,9 @@ public class HelloController {
     @Value("${message}")
     private String message;
 
+    @Value("${environment}")
+    private String environment;
+
     @GetMapping("/")
     public String welcome(Model model) {
         model.addAttribute("name", globalConfig.getName());
@@ -23,6 +26,7 @@ public class HelloController {
         model.addAttribute("facebook", globalConfig.getFacebook());
         model.addAttribute("message", message);
         model.addAttribute("menus", globalConfig.getMenus());
+        model.addAttribute("environment", environment);
         return "index";
     }
 
