@@ -10,3 +10,4 @@ Spring Boot Hello
 - https://stackjava.com/spring/yaml-file-la-gi-doc-file-yaml-yml-voi-spring-boot.html
 - https://stackjava.com/spring/gioi-thieu-tinh-nang-spring-boot-profiles-code-vi-du.html
 - https://stackjava.com/spring/code-vi-du-spring-boot-voi-bootstrap-static-resource-css-js.html
+- https://stackjava.com/spring/code-vi-du-spring-boot-da-ngon-ngu-internationalization-i18n.html

@@ -60,5 +60,14 @@
             </div>
         </div>
 
+        <h1>Spring Boot + Internationalization</h1>
+        Language :
+        <a href="?language=en">English</a>|
+        <a href="?language=vi_VN">Viet Nam</a>|
+        <a href="?language=ja_JP">Japanese</a>|
+        <a href="?language=fr_FR">France</a>
+        <p th:text="${message2}">User test</p>
+        <p th:text="#{hello}"></p>
+        <br />
     </body>
 </html>
